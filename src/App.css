@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  color: #571b0b;
+  font-size: 1rem;
+  background: #f7fffe;
+  box-shadow: 0 3px #571b0b;
+  border-radius: 290486px;
+  /* padding-left: 1em;
+  padding-right: 1em; */
+  padding: 0.7rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.select-form {
+  padding: 0.2rem;
+  font-size: 1rem;
+  border: none;
+  background: white;
+}
+
+.form-input {
+  padding: 0.2rem;
+  font-size: 1.5rem;
+  border: none;
+  background: white;
+}
+
+.form-div,
+.Todo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.nav {
+  background: #000;
+  height: 60px;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 40px;
+}
+
+.nav li:hover {
+  background: red;
+  transition: background 0.3s;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
